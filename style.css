@@ -1,0 +1,129 @@
+    @font-face {
+        font-family: Roboto;
+        src: url(fonts/Roboto-Regular.ttf);
+    }
+    *{
+        font-family: Roboto;
+        width:100%
+       
+    }
+    body{
+        overflow-x: hidden;
+        background-color: #E5E5E5;
+    }
+
+                                            /* HEADER */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+     background-color: #fff9f4;}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: 2px solid #E5E5E5;
+        box-shadow: 0 9px 4px rgba(0, 0, 0, 0.1);
+
+        
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+
+
+    #logopara{
+        font-size: 1.40rem;
+        margin-top: 7px;
+        padding-right:1px;
+        position: relative;
+        left: -200px;
+        
+    }
+
+    #logo{
+        width: 25%;
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+        .NIKE{
+            color: #ff8367;
+            font-weight: bolder;
+            
+        }
+    a{
+        text-decoration: none;  
+        color: black;  
+        font-size: 1.15rem;
+    }
+
+    li {
+        display: inline;
+        margin-right: 50px; 
+        }
+                          /* END OF HEADER */
+ #landingsection{
+    /* border-style: solid; */
+    background-color: #fff9f4;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    left: -10px;
+     
+ }
+ #Landingimage{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 80px;
+ }
+ @font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue-Regular.ttf);
+ }
+
+#landingcontent{
+    margin-left: 120px;
+    margin-right: 0px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.h1{
+    font-family: Bebas;
+    font-weight: lighter;
+    font-size: 80px;
+    line-height: 38px;
+}
+#buynow{
+    border: hidden;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #3D4FF3;
+    color: #E5E5E5;
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+
+}
+
+#cart{
+    display: inline;
+    background-color: transparent;
+    color: #E5E5E5;
+}
+ /* END OF LANDING SECTION */
+
+ .casual-shoes{
+    border-style: solid;
+    background-color: #E5E5E5;
+    margin-left: 0px;
+    position: relative;
+    left: -8px;
+    
+ }
+
+
