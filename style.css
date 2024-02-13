@@ -119,11 +119,79 @@
 
  .casual-shoes{
     border-style: solid;
-    background-color: #E5E5E5;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: hsl(0, 0%, 90%);
     margin-left: 0px;
     position: relative;
     left: -8px;
     
  }
+ .imgdiv{
+    text-align: center;
+    border-style: solid;
+     border-radius: 20px;
+     background-color: #F1F1F1 ;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-top: 20px;   
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .casualheadings{
+    margin-left: 90px;
+ }
+ .customdesignforimg{
+    width: 90%;
+    border-radius: 1px;
+ }
+ .firstdiv{
+    border-style: solid;
+    background-color: #2e0a0a;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 20px;
+    width: 20px
+    display: ;
+    
+ }
+ .maindiv{
+margin-left: 200px;
+width: 80vw;
+display: flex;
+justify-content: space-around;
+ }
+ .maintext{
+    color: #363958;
+ }
+ .casualcontent{
+    margin-left: 70px;
+ }
+ .causalbutton{
+    border: hidden;
+    border-radius: 6px;
+    background-color: #3D4FF3;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+     display: flex;
+    align-items: center;    
 
+ }
+.carts{
+    /* border-style: solid; */
+    
+    width: 23px;
+    display: inline;
+    background-color: transparent;
+    color: #E5E5E5;
+    
+}
 
