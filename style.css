@@ -63,12 +63,14 @@ li {
 }
 /* END OF HEADER */
 #landingsection {
-  /* border-style: solid; */
   background-color: #fff9f4;
-  margin-top: 30px;
+  padding-bottom: 60px;
+  margin-top: 50px;
   display: flex;
-  position: relative;
-  left: -10px;
+  /* justify-content: space-around; */
+  /* margin-left: 180px; */
+  margin-bottom: 30px;
+
 }
 #Landingimage {
   width: 90%;
@@ -111,8 +113,9 @@ li {
 /* END OF LANDING SECTION */
 
 .casual-shoes {
-  border-style: solid;
-  margin-left: 70px;
+  /* border-style: solid; */
+  
+  align-items: center;
   background-color: hsl(0, 0%, 90%);
   
 }
@@ -130,7 +133,7 @@ li {
   }
 .casualheadings {
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 104px;
   font-family: Bebas;
   color: #363958;
   font-weight: lighter;
@@ -142,16 +145,15 @@ li {
   align-items: center;
   border-radius: 1px;
   padding-left: 10px;
-
-
 }
 .firstdiv {
   /* border-style: solid; */
   background-color: #FFFFFF;
   border-radius: 20px;
   width: 30%;
-  margin-left: 0px;
-   
+  position: relative;
+  top: -30px;
+     
 }
 
 .maindiv {
@@ -162,11 +164,16 @@ li {
   gap: 1px;
 }
 .maintext {
+    font-family: Roboto;
+    font-size: 24px;
   color: #363958;
-}
+  }
 .casualcontent {
-  margin-left: 40px;
-}
+    /* border-style: solid; */
+    line-height: 20px;
+  margin-left: 26px;
+   
+  }
 .causalbutton {
   border: hidden;
   border-radius: 6px;
@@ -175,10 +182,10 @@ li {
   font-size: 16px;
   width: 120px;
   height: 50px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+  margin-left: 130px;
+  margin-top: 10px;
+  /* display: flex;
+  align-items: center; */
 }
 .carts {
   /* border-style: solid; */
@@ -187,4 +194,12 @@ li {
   display: inline;
   background-color: transparent;
   color: #e5e5e5;
+}
+.pbutton{
+    display: inline;
+}
+.dollar{
+    color: #FF8367;
+    font-weight: bold;
+    font-size: 25px;
 }
