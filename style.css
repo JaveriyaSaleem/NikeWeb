@@ -1,197 +1,190 @@
-    @font-face {
-        font-family: Roboto;
-        src: url(fonts/Roboto-Regular.ttf);
-    }
-    *{
-        font-family: Roboto;
-        width:100%
-       
-    }
-    body{
-        overflow-x: hidden;
-        background-color: #E5E5E5;
-    }
-
-                                            /* HEADER */
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 100;
-     background-color: #fff9f4;}
-    nav{
-        display: flex;
-        justify-content: space-between;
-        border-top: transparent;
-        border-left: transparent;
-        border-right: transparent;
-        border-bottom: 2px solid #E5E5E5;
-        box-shadow: 0 9px 4px rgba(0, 0, 0, 0.1);
-
-        
-    }
-    .navbar{
-        display: flex;
-        align-items: center;
-    }
-
-
-    #logopara{
-        font-size: 1.40rem;
-        margin-top: 7px;
-        padding-right:1px;
-        position: relative;
-        left: -200px;
-        
-    }
-
-    #logo{
-        width: 25%;
-        margin-left: 30px;
-        padding-top: 10px;
-    }
-        .NIKE{
-            color: #ff8367;
-            font-weight: bolder;
-            
-        }
-    a{
-        text-decoration: none;  
-        color: black;  
-        font-size: 1.15rem;
-    }
-
-    li {
-        display: inline;
-        margin-right: 50px; 
-        }
-                          /* END OF HEADER */
- #landingsection{
-    /* border-style: solid; */
-    background-color: #fff9f4;
-    margin-top: 30px;
-    display: flex;
-    position: relative;
-    left: -10px;
-     
- }
- #Landingimage{
-    width: 90%;
-    margin-top: 30px;
-    margin-left: 80px;
- }
- @font-face {
-    font-family: Bebas;
-    src: url(fonts/BebasNeue-Regular.ttf);
- }
-
-#landingcontent{
-    margin-left: 120px;
-    margin-right: 0px;
-    margin-top: 60px;
-    padding-top: 20px;
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
 }
-.h1{
-    font-family: Bebas;
-    font-weight: lighter;
-    font-size: 80px;
-    line-height: 38px;
+* {
+  font-family: Roboto;
+  width: 100%;
 }
-#buynow{
-    border: hidden;
-    border-style: solid;
-    border-radius: 6px;
-    background-color: #3D4FF3;
-    color: #E5E5E5;
-    font-size: 15px;
-    width: 120px;
-    height: 50px;
-
+body {
+  overflow-x: hidden;
+  background-color: #e5e5e5;
 }
 
-#cart{
-    display: inline;
-    background-color: transparent;
-    color: #E5E5E5;
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff9f4;
 }
- /* END OF LANDING SECTION */
-
- .casual-shoes{
-    border-style: solid;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    background-color: hsl(0, 0%, 90%);
-    margin-left: 0px;
-    position: relative;
-    left: -8px;
-    
- }
- .imgdiv{
-    text-align: center;
-    border-style: solid;
-     border-radius: 20px;
-     background-color: #F1F1F1 ;
-    margin-left: 10px;
-    margin-right: 60px;
-    margin-top: 20px;   
-    width: 30vw;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .casualheadings{
-    margin-left: 90px;
- }
- .customdesignforimg{
-    width: 90%;
-    border-radius: 1px;
- }
- .firstdiv{
-    border-style: solid;
-    background-color: #2e0a0a;
-    border-radius: 20px;
-    width: 40%;
-    margin-left: 20px;
-    width: 20px
-    display: ;
-    
- }
- .maindiv{
-margin-left: 200px;
-width: 80vw;
-display: flex;
-justify-content: space-around;
- }
- .maintext{
-    color: #363958;
- }
- .casualcontent{
-    margin-left: 70px;
- }
- .causalbutton{
-    border: hidden;
-    border-radius: 6px;
-    background-color: #3D4FF3;
-    color: #FFFFFF;
-    font-size: 16px;
-    width: 120px;
-    height: 50px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-     display: flex;
-    align-items: center;    
-
- }
-.carts{
-    /* border-style: solid; */
-    
-    width: 23px;
-    display: inline;
-    background-color: transparent;
-    color: #E5E5E5;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid #e5e5e5;
+  box-shadow: 0 9px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+  display: flex;
+  align-items: center;
 }
 
+#logopara {
+  font-size: 1.4rem;
+  margin-top: 7px;
+  padding-right: 1px;
+  position: relative;
+  left: -200px;
+}
+
+#logo {
+  width: 25%;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.NIKE {
+  color: #ff8367;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.15rem;
+}
+
+li {
+  display: inline;
+  margin-right: 50px;
+}
+/* END OF HEADER */
+#landingsection {
+  /* border-style: solid; */
+  background-color: #fff9f4;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+  left: -10px;
+}
+#Landingimage {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+@font-face {
+  font-family: Bebas;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+#landingcontent {
+  margin-left: 120px;
+  margin-right: 0px;
+  margin-top: 60px;
+  padding-top: 20px;
+}
+.h1 {
+  font-family: Bebas;
+  font-weight: lighter;
+  font-size: 80px;
+  line-height: 38px;
+}
+#buynow {
+  border: hidden;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: #3d4ff3;
+  color: #e5e5e5;
+  font-size: 15px;
+  width: 120px;
+  height: 50px;
+}
+
+#cart {
+  display: inline;
+  background-color: transparent;
+  color: #e5e5e5;
+}
+/* END OF LANDING SECTION */
+
+.casual-shoes {
+  border-style: solid;
+  margin-left: 70px;
+  background-color: hsl(0, 0%, 90%);
+  
+}
+.imgdiv {
+  text-align: center;
+  /* border-style: solid; */
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  margin: 10px 9px;
+  width: 95%;
+  height: 54%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.casualheadings {
+    margin-top: 50px;
+    margin-left: 100px;
+  font-family: Bebas;
+  color: #363958;
+  font-weight: lighter;
+  font-size: 3.0rem;
+}
+.customdesignforimg {
+  width: 101%;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 1px;
+  padding-left: 10px;
+
+
+}
+.firstdiv {
+  /* border-style: solid; */
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 30%;
+  margin-left: 0px;
+   
+}
+
+.maindiv {
+  margin-left: 70px;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1px;
+}
+.maintext {
+  color: #363958;
+}
+.casualcontent {
+  margin-left: 40px;
+}
+.causalbutton {
+  border: hidden;
+  border-radius: 6px;
+  background-color: #3d4ff3;
+  color: #ffffff;
+  font-size: 16px;
+  width: 120px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.carts {
+  /* border-style: solid; */
+
+  width: 23px;
+  display: inline;
+  background-color: transparent;
+  color: #e5e5e5;
+}
