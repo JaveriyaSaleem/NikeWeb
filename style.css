@@ -274,3 +274,57 @@ li {
   width: 80px;
   margin-right: 0;
 }
+
+/* Support Completed */
+.NEWSLETTER{
+  /* border-style: solid; */
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  width: 85%;
+  height: 30vh;
+  margin-top: 60px;
+   padding-top: 3px;
+  margin-left: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+#hthree{
+  text-align: center;
+  font-size: 25px;
+  color: #363958;
+  
+}
+.emailsec{
+  display: flex;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  }
+
+#email{
+  border: 1px solid rgba(40, 35, 35, 0.125);
+  border-radius: 6px 0px 0px 6px;
+  width: 80%;
+  height: 8vh;
+ margin-left: 40px;
+ font-size: 16px;
+ padding-left: 20px;
+}
+
+#Subscribe{
+  border: hidden;
+  border-style: solid;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #3d4ff3;
+  color: #FFFFFF;
+  font-weight: lighter;
+  width: 10%;
+  height: 9vh;
+  font-size: 20px;
+  position: relative;
+  left: -3px;
+  top: -2px;
+  
+
+}
