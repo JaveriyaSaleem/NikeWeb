@@ -203,3 +203,17 @@ li {
     font-weight: bold;
     font-size: 25px;
 }
+
+/* END OF CASUAL SHOES  */
+.imgdiv2{
+  text-align: center;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  margin: 10px 9px;
+  width: 90%;
+  height: 54%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
