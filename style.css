@@ -217,3 +217,60 @@ li {
   align-items: center;
   }
 
+  /* SUPPORT */
+  .supportlock{
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(Images/shopping\ image.png);
+    background-size: 45%;
+     background-repeat: no-repeat;
+    background-position: 83% 
+    
+    
+  
+  }
+  .perfectmaindiv{
+  /* border-style: solid; */
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  width: 45%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  align-items: center;
+   
+  
+}
+.perfectimgdiv{
+  margin-left: 20px;
+  /* border-style: solid; */
+  width: 90px;
+  
+}
+.perfectfit{
+  /* border-style: solid; */
+}
+.perfcontent{
+  width: 53%;
+  margin-top: 6px;
+}
+.h5{
+  font-size: 20px;
+  color: #363958;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hfivepara{
+  margin-top: 9px;
+  padding-bottom: 1px;
+}
+
+.perfectfit{
+  width: 80px;
+  margin-right: 0;
+}
